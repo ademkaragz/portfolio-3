@@ -1,0 +1,57 @@
+::selection{
+    background: #EB3E1B;
+    color: #fff;
+}
+
+/* Scrolled-Navbar-Color */
+.bottom-menu.scrolled {
+    background-color: #fff !important;
+    transition: background-color 200ms linear;
+  }
+
+  .menu-bottom.scrolled{
+    color: #000;
+  }
+
+  .menu-bottom.scrolled:hover{
+    color: #fff;
+  }
+
+/* glass effect */
+.glass{
+    backdrop-filter: blur(10px);
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+/* header */
+.text{
+    /* transform: skewY(-4deg);
+    text-shadow: whitesmoke 2px 2px; */
+    font-weight: 700;
+  }
+
+  .heading{
+    font-weight: 900;
+    margin-bottom: -0.5rem;
+  }
+
+  .head{
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+    /* Column */
+
+  @media screen and (min-width:768px) and (max-width:1024px){
+    .con{
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  
+
+  
+  
+  
+  
